@@ -12,13 +12,13 @@ on:
       - 'vite.config*'
   workflow_dispatch:
 
-# Required by github-pages-deploy-action
-permissions:
-  contents: write
-
 jobs:
   deploy:
     name: Deploy
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

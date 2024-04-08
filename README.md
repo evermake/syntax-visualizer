@@ -59,7 +59,7 @@ https://user-images.githubusercontent.com/62389790/176512301-f7ea7d0e-c65b-4724-
 You can clone and run project locally:
 
 ```bash
-git clone https://github.com/InnoSWP/syntax-visualizer.git
+git clone https://github.com/evermake/syntax-visualizer.git
 cd syntax-visualizer
 npm install
 npm run dev

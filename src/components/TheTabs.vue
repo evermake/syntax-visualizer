@@ -53,7 +53,7 @@ const handleNodeMouseOut = (nodeIndex: number) => {
       />
       <template v-slot:menu>
         <a
-          href="https://github.com/InnoSWP/syntax-visualizer/#nodes-coordinates-matrix"
+          href="https://github.com/evermake/syntax-visualizer/#nodes-coordinates-matrix"
           class="tab-menu-button"
         >
           <AppIcon name="info" />

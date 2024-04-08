@@ -1,15 +1,15 @@
-<h1 align="center"> 🔭 Syntax Visualizer </h1>
+<h1 align="center">🔭 Syntax Visualizer</h1>
 
 <p align="center">
-<img src="assets/tree.png" width="200">
+  <img src="assets/tree.png" width="200">
 </p>
 
 <p align="center">
-Programming languages syntax visualizer with
-<b>Abstract Syntax Tree</b>
-&
-<b>Node Coordinates Matrix</b> 
-representations
+  Programming languages syntax visualizer with
+  <b>Abstract Syntax Tree</b>
+  &
+  <b>Node Coordinates Matrix</b> 
+  representations
 </p>
 
 <p align="center">
@@ -40,10 +40,10 @@ representations
 ## Features
 
 - [Node Coordinates Matrix](#nodes-coordinates-matrix)
+- Sharing snippets
+- Nodes highlighting
 - Restoring written code on page reopen
-- Sharing
-- Nodes highlighting (soon...)
-- Different programming languages support (soon...)
+- JavaScript language support
 
 ## Usage
 
@@ -57,6 +57,7 @@ https://user-images.githubusercontent.com/62389790/176512301-f7ea7d0e-c65b-4724-
 ## Run locally
 
 You can clone and run project locally:
+
 ```bash
 git clone https://github.com/InnoSWP/syntax-visualizer.git
 cd syntax-visualizer
@@ -67,6 +68,7 @@ npm run dev
 git, nodejs (tested on version 16) and npm are required.
 
 ## Nodes Coordinates Matrix
+
 Node Coordinates Matrix is a representation of "an encoding of the inter-node relationships between nodes in an AST" [[1]](#references).
 In conjunction with the Key operator this concept is necessary for performing parallel computations over an AST: "...permits arbitrary computation over sub-trees of an AST using purely data-parallel array programming techniques" [[1]](#references).
 
@@ -84,6 +86,7 @@ Please, read [this article](#references) for more information.
 - "A" grade as the motivation
 
 ## References
+
 [1] A. W. H. I. University, A. W. Hsu, I. University, and O. M. V. A. Metrics, “The key to a data parallel compiler: Proceedings of the 3rd ACM SIGPLAN International Workshop on libraries, languages, and compilers for Array Programming,” _ACM Conferences_, 01-Jun-2016. [Online]. Available: https://dl.acm.org/doi/10.1145/2935323.2935331. [Accessed: 03-Jun-2022].
 
 ## License

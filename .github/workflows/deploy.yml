@@ -10,6 +10,7 @@ on:
       - 'package.json'
       - 'tsconfig*'
       - 'vite.config*'
+  workflow_dispatch:
 
 # Required by github-pages-deploy-action
 permissions:
